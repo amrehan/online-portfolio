@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+/* 16px = 100% = 1em*/
+
+/* The reason for using the  value of percentage or
+em is that if th user has set the default font size
+in some other settings than normal size of the
+text in the browser then the changes will be
+reflected accordingly*/
+
+/*rem is a good way to implement introduced in
+CSS3 that is more conveninet even if we have set
+some text value in the body of the code.*/
+
+.my-portfolio {
+    height: 150px;
+    position: fixed;
+
+}
+
+h1 {
+    font-size: 5.625rem/*5.625em*/;
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    color: #deff8b;
+    line-height: 2;
+}
+
+.heading-top-two {
+    color: #deff8b;
+}
+
+h2{
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: #42e6a4;
+    font-weight: normal;
+    line-height: 2;
+
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #2c7873;
+}
+
+
+.top-container {
+    background-color: #8cba51;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    right: 300px;
+    top: 50px;
+    position: absolute;
+}
+
+a {
+
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.intro {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+.webD {
+    width: 25%;
+    float: left; /*clear is used as antifloat to avoid the text wrapping*/
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.profile-img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.bottom-container {
+
+    background-color: #8cba51;
+    padding: 50px 0 20px;
+}
+
+.middle-container {
+    margin: 50px auto 10px auto;
+}
+
+.footer-link {
+    color: #deff8b;
+    margin: 10px 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.low-head {
+    line-height: 3;
+    padding-bottom: 30px;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
+
+
+.btn {
+    -moz-box-shadow:inset -2px 3px 0px 0px #c1ed9c;
+    -webkit-box-shadow:inset -2px 3px 0px 0px #c1ed9c;
+    box-shadow:inset -2px 3px 0px 0px #c1ed9c;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+    background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+    background-color:#9dce2c;
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-topleft:10px;
+    border-top-left-radius:10px;
+    -webkit-border-top-right-radius:10px;
+    -moz-border-radius-topright:10px;
+    border-top-right-radius:10px;
+    -webkit-border-bottom-right-radius:10px;
+    -moz-border-radius-bottomright:10px;
+    border-bottom-right-radius:10px;
+    -webkit-border-bottom-left-radius:10px;
+    -moz-border-radius-bottomleft:10px;
+    border-bottom-left-radius:10px;
+    text-indent:0;
+    border:1px solid #83c41a;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:40px;
+    line-height:40px;
+    width:101px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 3px 0px #689324;
+}
+.btn:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+    background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+    background-color:#8cb82b;
+}
+.btn:active {
+    position:relative;
+    top:1px;
+}
