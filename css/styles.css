@@ -5,18 +5,6 @@ body {
     color: #40514E;
 }
 
-/* 16px = 100% = 1em*/
-
-/* The reason for using the  value of percentage or
-em is that if th user has set the default font size
-in some other settings than normal size of the
-text in the browser then the changes will be
-reflected accordingly*/
-
-/*rem is a good way to implement introduced in
-CSS3 that is more conveninet even if we have set
-some text value in the body of the code.*/
-
 .my-portfolio {
     height: 150px;
     position: fixed;
