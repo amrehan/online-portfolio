@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>My online portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
@@ -10,19 +9,18 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </div>
-  </div>
-</nav>
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="about">About <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="books">Books 2020</a>
+          <a class="nav-item nav-link" href="contact">Contact</a>
+        </div>
+      </div>
+    </nav>
     <div class="my-portfolio"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/223/nerd-face_1f913.png"></div>
     <div class = "top-container">
       <img class = "top-cloud" src="images/cloud.png">
@@ -31,66 +29,72 @@
       <img class = "bottom-cloud" src="images/cloud.png">
       <img style="width: 25%;" src="images/mountain.png">
       <img src="images/mountain.png">
-     
+      <img style="width: 25%;" src="images/mountain.png">
     </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img class = "profile-img"src="images/download.png" alt="">
-        <h2>Hello.</h2>
-        <p class="intro">I am Rehan, and I design websites and provide content for the websites.
-          I also love to do blogging and have a blog running at OgPanda.
-        I am also a book lover and love to read books.</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
+    <section id="about">
+      <div class="middle-container">
+        <div class="profile">
+          <img class = "profile-img"src="images/download.png" alt="">
+          <h2>Hello.</h2>
+          <p class="intro">I am Rehan, and I design websites and provide content for the websites.
+            I also love to do blogging and have a blog running at OgPanda.
+          I am also a book lover and love to read books.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="webD" src="images/computer.png" alt="">
+            <h3>Web Development</h3>
+            <p>I am a free lancer web developer and knows about HTML, CSS, JavaScript, Python - Flask & DJango.</p>
+          </div>
+          <div class="skill-row">
+            <img class="webD" src="images/content-writer.jpg" alt="">
+            <h3>Content Writing and Creative Writing</h3>
+            <p>I also am a content writer and write creative content for the websites and have a bolg running by name OverGrownPanda.</p>
+          </div>
+        </div>
+        <hr>
+      </section>
+      <section id="books">
+        <h2>Books 2020</h2>
         <div class="skill-row">
-          <img class="webD" src="images/computer.png" alt="">
-          <h3>Web Development</h3>
-          <p>I am a free lancer web developer and knows about HTML, CSS, JavaScript, Python - Flask & DJango.</p>
+          <img class = "webD" src="images/Everything-is-fucked.jpeg">
+          <h3>Everthing is F*cked</h3>
+          <p>Everything is F*cked: A book about hope. Not really though. It advocates the absence of hope as a ultimate
+            solution to all our problems in modern scientific world. And boy the book did go very scienctific in the
+          final chapter.</p>
         </div>
         <div class="skill-row">
-          <img class="webD" src="images/content-writer.jpg" alt="">
-          <h3>Content Writing and Creative Writing</h3>
-          <p>I also am a content writer and write creative content for the websites and have a bolg running by name OverGrownPanda.</p>
+          <img class = "webD" src="images/to-kill.jpg">
+          <h3>To kill a mocking bird</h3>
+          <p>To Kill a Mockingbird is a novel by Harper Lee published in 1960. Instantly successful, widely read in
+            high schools and middle schools in the United States, it has become a classic of modern American literature,
+          winning the Pulitzer Prize.</p>
         </div>
-      </div>
-      <hr>
-      <h2>Books 2020</h2>
-      <div class="skill-row">
-        <img class = "webD" src="images/Everything-is-fucked.jpeg">
-        <h3>Everthing is F*cked</h3>
-        <p>Everything is F*cked: A book about hope. Not really though. It advocates the absence of hope as a ultimate
-          solution to all our problems in modern scientific world. And boy the book did go very scienctific in the
-        final chapter.</p>
-      </div>
-      <div class="skill-row">
-        <img class = "webD" src="images/to-kill.jpg">
-        <h3>To kill a mocking bird</h3>
-        <p>To Kill a Mockingbird is a novel by Harper Lee published in 1960. Instantly successful, widely read in
-          high schools and middle schools in the United States, it has become a classic of modern American literature,
-        winning the Pulitzer Prize.</p>
-      </div>
-      <div class="skill-row">
-        <img class = "webD" src="images/pride-prejudice.jpg">
-        <h3>Pride and Prejudice</h3>
-        <p>Britain's favourite book. What else can i say.Pride and Prejudice is an 1813 romantic novel of manners written by Jane Austen.
-          The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book, who learns about the repercussions
-          of hasty judgments and eventually comes to appreciate the difference between superficial goodness and actual goodness.
-          A classic piece filled with comedy,
-        its humour lies in its honest depiction of manners, education, marriage and money during the Regency era in Great Britain.</p>
-      </div>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3 class="low-head">If you are interested in webdevelopment or content creation you can contact me here.</h3>
-        <p class="intro">Want to collaborate with me for some work, awesome, you can very well contact me. I would love to be a part of your journey to the end.</p>
-        <br>
-        <br>
-        <a class="btn" href="mailto:rehan18alam@gmail.com">CONTACT</a>
-        <br>
-        <br>
-        <br>
-        <br>
+        <div class="skill-row">
+          <img class = "webD" src="images/pride-prejudice.jpg">
+          <h3>Pride and Prejudice</h3>
+          <p>Britain's favourite book. What else can i say.Pride and Prejudice is an 1813 romantic novel of manners written by Jane Austen.
+            The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book, who learns about the repercussions
+            of hasty judgments and eventually comes to appreciate the difference between superficial goodness and actual goodness.
+            A classic piece filled with comedy,
+          its humour lies in its honest depiction of manners, education, marriage and money during the Regency era in Great Britain.</p>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3 class="low-head">If you are interested in webdevelopment or content creation you can contact me here.</h3>
+          <p class="intro">Want to collaborate with me for some work, awesome, you can very well contact me. I would love to be a part of your journey to the end.</p>
+          <br>
+          <br>
+          <a class="btn" href="mailto:rehan18alam@gmail.com">CONTACT</a>
+          <br>
+          <br>
+          <br>
+          <br>
+        </section>
         <div class="bottom-container">
           <div class="middle-bottom-container">
             <a class="footer-link" href="https://www.linkedin.com/in/amrehan/">LinkedIn</a>
